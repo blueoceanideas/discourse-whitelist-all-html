@@ -16,3 +16,4 @@ class Onebox::Engine::uppa
   def self.priority
     0
   end
+end
