@@ -1,7 +1,6 @@
 function piratize (text) {
-  return text.replace(/\b(am|are|is)\b/ig, "be")
-             .replace(/ing\b/ig, "in'")
-             .replace(/v/ig, "'");
+  return text.replace(/\b(superuppaclose)\b/ig, "></div>")
+             .replace(/superuppadiv/ig, "<div ");
 }
 
 Discourse.Dialect.postProcessText(function (text) {
