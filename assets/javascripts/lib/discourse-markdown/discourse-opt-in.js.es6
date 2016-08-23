@@ -5,5 +5,5 @@ registerOption((siteSettings, opts) => {
 });
 
 export function setup(helper) {
-  helper.whiteList([ 'div[id=someid]' ]);
+  helper.whiteList([ 'div[id=om-xddddihwxnstqcdk-holder]' ]);
 }
