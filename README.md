@@ -1,2 +1,2 @@
 # discourseoptin
-OptinMonster for Discourse - UPPA
+Whitelist a div id
