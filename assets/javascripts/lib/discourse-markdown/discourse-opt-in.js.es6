@@ -6,4 +6,6 @@ registerOption((siteSettings, opts) => {
 
 export function setup(helper) {
   helper.whiteList([ 'div[id=highlight]' ]);
+  helper.whiteList([ 'div[id=floatbuy]' ]);
+  helper.whiteList([ 'div[id=myid]' ]);
 }
