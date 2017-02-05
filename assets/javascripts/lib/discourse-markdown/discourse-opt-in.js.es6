@@ -6,5 +6,4 @@ registerOption((siteSettings, opts) => {
 
 export function setup(helper) {
   helper.whiteList([ 'div[id=highlight]' ]);
-  Discourse.Markdown.whiteListTag('div', 'class', 'mytest1');
 }
