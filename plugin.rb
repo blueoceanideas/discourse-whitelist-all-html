@@ -1,5 +1,5 @@
 # name: UPPA Optinmonster
-# about:  Integra OptinMonster a Discourse
+# about: Whitelist all HTML tags custom classes and ID's
 # version: 0.0.1
 # authors: Benjamin Meghnagi
 
