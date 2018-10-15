@@ -51,7 +51,12 @@ export function setup(helper) {
     helper.whiteList(['form[class]']);
     helper.whiteList(['frame[class]']);
     helper.whiteList(['frameset[class]']);
-    helper.whiteList(['h1 - h2 - h3 - h4[class]']);
+    helper.whiteList(['h1[class]']);
+    helper.whiteList(['h2[class]']);
+    helper.whiteList(['h3[class]']);
+    helper.whiteList(['h4[class]']);
+    helper.whiteList(['h5[class]']);
+    helper.whiteList(['h6[class]']);
     helper.whiteList(['head[class]']);
     helper.whiteList(['header[class]']);
     helper.whiteList(['hr[class]']);
@@ -169,7 +174,12 @@ export function setup(helper) {
     helper.whiteList(['form[id]']);
     helper.whiteList(['frame[id]']);
     helper.whiteList(['frameset[id]']);
-    helper.whiteList(['h1 - h2 - h3 - h4[id]']);
+    helper.whiteList(['h1[id]']);
+    helper.whiteList(['h2[id]']);
+    helper.whiteList(['h3[id]']);
+    helper.whiteList(['h4[id]']);
+    helper.whiteList(['h5[id]']);
+    helper.whiteList(['h6[id]']);
     helper.whiteList(['head[id]']);
     helper.whiteList(['header[id]']);
     helper.whiteList(['hr[id]']);
