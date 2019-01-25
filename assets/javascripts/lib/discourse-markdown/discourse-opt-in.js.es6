@@ -1,7 +1,7 @@
 import {registerOption} from 'pretty-text/pretty-text';
 
 registerOption((siteSettings, opts) => {
-    opts.features['discourse-opt-in'] = true;
+    opts.features['discourse-whitelist-all-html'] = true;
 });
 
 export function setup(helper) {
